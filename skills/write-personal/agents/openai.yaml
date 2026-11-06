@@ -1,0 +1,16 @@
+interface:
+  display_name: 나만의 글쓰기
+  short_description: 메모로 칼럼을 쓰는 6단계 작업. 내 글 정본을 적용하고 초보자의 문장 수정을 돕습니다.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: '나만의 글쓰기 스킬로 아래 경험과 메모를 글로 정리해줘. 현재 단계와 이번 작업, 보완 추천, 다음 단계를 안내해줘.
+
+
+    [내 경험과 메모]'
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

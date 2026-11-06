@@ -1,0 +1,13 @@
+interface:
+  display_name: 내 글 정본
+  short_description: 문체와 표현의 기준을 초안부터 최종 점검까지 적용하며 필자의 사실과 관점을 보존합니다.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: $write-standard 기준으로 아래 글의 문체와 표현을 검토해줘.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
